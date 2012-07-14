@@ -1,0 +1,25 @@
+{
+  "name": "tricaster",
+  "version": "1.0.0",
+  "description": "Bidirectional communication with the NewTek Tricaster",
+  "main": "index.js",
+  "dependencies": {
+    "buffertools": "~1.1.0",
+    "xml2js": "~0.1.14"
+  },
+  "bin": {
+    "tc-shell": "./test.js"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NewTek",
+    "TriCaster",
+    "850",
+    "855"
+  ],
+  "author": "Rodger Combs",
+  "license": "BSD"
+}
